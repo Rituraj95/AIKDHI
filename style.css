@@ -1,0 +1,359 @@
+
+.nav{
+    background-color: #2153E4;
+    height: 114px;
+}
+.hero1{
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 86px;
+    width: 165px;
+}
+.hero1 ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: white;
+}
+
+.hero3{
+    background-color: rgba(0,0,0,75%);
+}
+
+
+.texto{
+    text-align: center;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    font-weight: bold;
+
+
+    font-size: 50px;
+}
+.texto h4{
+    color: rgb(210, 204, 204);
+}
+.texto h1{
+    color: rgb(9, 199, 196);
+    font-size: 5rem;
+}
+.texto p{
+    color: rgb(191, 191, 191);
+    font-size: 23px;
+}
+
+body{
+    position: relative;
+    height: 100%;
+}
+
+body {
+background: #eee;
+
+color: #000;
+margin: 0;
+padding: 0;
+}
+
+ .swiper {
+width: 80%;
+padding-top: 50px;
+
+}
+#swipe2{
+    width: 44%;
+}
+
+
+.swiper-slide {
+background-position: center;
+background-size: cover;
+}
+
+.swiper-slide img {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.posterText{
+    background-color: #000;
+    color: white;
+}
+.posterText h1{
+    padding-left: 30px;
+}
+.posterText p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+.nav-link{
+    color: white;
+}
+
+.row{
+    gap: 70px;
+    margin-left: 6px;
+}
+#row1{
+    padding-top: 50px;
+}
+#row2{
+    padding-top: 50px;
+}
+.buttonn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 40px;
+
+}
+.hero4{
+    height: 900px;
+    background-color: black;
+}
+.img44{
+    
+    height: auto;
+    margin-left: 190px;
+    margin-right: 80px;
+    margin-top: 60px;
+    width: auto;
+    
+}
+.hero4text{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.hero4text p{
+    color: white;
+}
+.hero4text h2{
+    color: white;
+    font-size: 40px;
+    color: rgb(8, 192, 220);
+
+}
+.hero4text2{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.button4{
+    text-align: center;
+
+    
+    
+}
+.hero5{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    gap: 150px;
+    margin-top: 50px;
+}
+
+.hero5content1{
+    width: 314px;
+}
+.hero5content1 p{
+        font-size: 20px;
+        color:white;
+    }
+.hero5content1 h1{
+        font-size: 50px;
+        color:aqua;
+    }
+.hero5content1  .p2{
+        font-size: 30px;margin-top:20px;color:white;
+    }
+
+    
+
+
+.hero5content2{
+    width: 314px;
+}
+.hero5content3{
+    width: 314px;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid blue;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid blue; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:blue;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:blue; }
+
+.heroimg{
+    width: inherit;
+    height: inherit;
+
+}
+.herotext{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+.herotxtp{
+    font-size: 48px;
+}
+
+.botton{
+    gap: 40px;
+}
+.herooimg{
+    height: 100%;
+    width: 100%;
+}
+.heroo {
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  .herooimg {
+    width: 100%;
+    height: 100%;
+    filter: blur(2px); /* Adjust the blur amount as needed */
+    opacity: 1.8; /* Adjust the opacity of the image */
+  }
+  
+  .herootext {
+    position: absolute;
+    display: flex;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2; /* Place the text above the image */
+  }
+  
+  .herootext p{
+    font-size: 50px;
+    color: white;
+    padding-top: 10px;
+    
+    font-family: fangsong;
+
+  }
+  .herootext h2 {
+    font-family: fantasy;
+    margin: 0;
+    font-size: 80px;
+    color: white;
+  }
+  
+  .herootext span {
+    font-size: 50px;
+  }
+  
+  /* Black corner overlay */
+  .heroo::before,
+  .heroo::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%; /* Adjust the width for the size of the black corners */
+    background-color: #192949;;
+  }
+  
+  .heroo::before {
+    left: 0;
+  }
+  
+  .heroo::after {
+    right: 0;
+  }
+  
+  .heroo::before,
+  .heroo::after {
+    opacity: 0.5; /* Adjust the opacity of the black corners as needed */
+    z-index: 1; /* Make sure the black corners are behind the content */
+  }
+  
+  .heroo::after {
+    transform: skewX(0deg); /* Skew the right corner for a diagonal effect */
+  }
+  
+@media all and (max-width:800px){
+   #swipe2{
+    
+    width: 93%;
+    font-size: 16px;
+    }
+    .posterText h1{
+        font-size: 30px;
+    }
+    .herootext h2{
+        display: block;
+        padding: 0px;
+        border-radius: 0vw;
+    }
+    .herooimg{
+        height: auto;
+        width: 150%;
+    }
+    .herootext p{
+        font-size: 30px;
+    
+      }
+      .herootext h2 {
+        font-size: 50px;
+      }
+      .herootext{
+        width: max-content;
+      }
+
+
+   }
+
+   
+
+
